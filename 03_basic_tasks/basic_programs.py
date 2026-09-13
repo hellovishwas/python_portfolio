@@ -1,0 +1,25 @@
+a=int(input ("enter first number:"))
+b=int(input ("enter second number:"))
+print("sum is:",a+b)
+print("multiplication is:",a*b)
+a=1
+b=4
+print(a+b)
+a=int(input ("enter first number:"))
+b=int(input ("enter second number:"))
+print("remainder is:",a%b)
+a=input("enter a character:")
+b=type(a)
+print(b)
+#every thing under input function is string only
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+print("greater no. is",a<b)
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+print("average is:",(a+b)/2)
+a=int(input("enter first number:"))
+print("square is:",a*a)
+# or
+a=int(input("enter your number:"))
+print("square is",a**2)
